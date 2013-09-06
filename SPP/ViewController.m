@@ -15,9 +15,7 @@
 @implementation ViewController
 
 
-//------------TestGit------------//
-//       NEW          Message    //
-//-------------------------------//
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
