@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+@interface ViewController : UIViewController<CBCentralManagerDelegate, CBPeripheralDelegate>{
+    CBCentralManager *CM;
+    //id *delegate<>
+}
+//@property(assign, nonatomic) id<CBCentralManagerDelegate> delegate;
 
-@interface ViewController : UIViewController
 
 @end
